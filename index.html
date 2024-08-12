@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>moneytor.care</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Bootstrap CSS -->
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap JS -->
+
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="contain">
+        <div class="logo">
+          <img src="assets/careLogo.svg" style="width: 70px" />
+        </div>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Blogs</a></li>
+          </ul>
+          <hr class="hrs" />
+          <button class="login-button">Login</button>
+        </nav>
+      </div>
+    </header>
+
+    <div class="landing-page">
+      <div class="content">
+        <h2>get debt free with</h2>
+        <h1>Moneytor Care</h1>
+        <p>your path to a debt free future</p>
+      </div>
+      <div class="volume-control">
+        <div class="volume-inner-box">
+          <h3>your total loan amount</h3>
+          <h2>₹<span id="volume-value">0</span></h2>
+          <input
+            type="range"
+            min="0"
+            max="500000"
+            value="0"
+            class="volume-slider"
+          />
+        </div>
+        <a href="#" class="get-care-button">get care</a>
+      </div>
+    </div>
+
+    <div class="statistics-section">
+      <h2>Our Statistics</h2>
+      <div class="stats-grid">
+        <div class="stat-column">
+          <div class="stat-card photo-card">
+            <img src="assets/credit-card.jpg" alt="Credit Cards" />
+          </div>
+          <div class="stat-card number-card" style="color: #3d479b">
+            <h3>3,35,990</h3>
+            <p>loans</p>
+          </div>
+        </div>
+        <div class="stat-column">
+          <div class="stat-card number-card" style="color: #ff7a50">
+            <h3>3,13,621</h3>
+            <p>Customers</p>
+          </div>
+          <div class="stat-card photo-card">
+            <img src="assets/hand-shake.jpg" alt="Payment Processing" />
+          </div>
+        </div>
+        <div class="stat-column">
+          <div class="stat-card photo-card">
+            <img src="assets/enter.jpg" alt="Handshake" />
+          </div>
+          <div class="stat-card number-card" style="color: #2f9400">
+            <h3>₹37,40,962</h3>
+            <p>Payments Made</p>
+          </div>
+        </div>
+        <div class="stat-column">
+          <div class="stat-card number-card" style="color: #391062">
+            <h3>494</h3>
+            <p>Payments plans</p>
+          </div>
+          <div class="stat-card photo-card">
+            <img src="assets/pen.jpg" alt="Payments" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="how-it-works-section">
+      <h2>How It Works</h2>
+      <div class="how-it-works-container">
+        <div class="step">
+          <img src="assets/step1.png" alt="Step 1" class="step-icon" />
+          <div class="step-content">
+            <h3>Talk to Us</h3>
+            <p>Let us know your problem, we’re here to help.</p>
+          </div>
+        </div>
+        <div class="divider"></div>
+        <div class="step">
+          <img src="assets/step2.png" alt="Step 2" class="step-icon" />
+          <div class="step-content">
+            <h3>We’ll Analyse Your Case</h3>
+            <p>
+              Our AI model will analyse your debt and determine your eligibility
+              for a debt relief program that is personalised for you and best
+              suited for your goals.
+            </p>
+          </div>
+        </div>
+        <div class="divider"></div>
+        <div class="step">
+          <img src="assets/step3.png" alt="Step 3" class="step-icon" />
+          <div class="step-content">
+            <h3>Join Us</h3>
+            <p>
+              Sign up for a debt relief program with us and begin your debt-free
+              journey.
+            </p>
+          </div>
+        </div>
+        <div class="divider"></div>
+        <div class="step">
+          <img src="assets/step4.png" alt="Step 4" class="step-icon" />
+          <div class="step-content">
+            <h3>Your Debt-Free Future</h3>
+            <p>
+              We go all the way with you, and your debt-free future stands in
+              front of you.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="faq-section">
+      <h2>FAQs</h2>
+      <div class="faq-container">
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>What types of debt can Moneytor care help me with?</span>
+            <span class="toggle-icon">⌄</span>
+          </div>
+          <div class="faq-answer">
+            <p>
+              most of your unsecured debts (not backed by a collateral) can be
+              enrolled. If the majority of your debt load consists of personal
+              loans, credit card debts, consumer loans, payday loans,
+              peer-to-peer loans, BNPL loans, and education loans; you can
+              expect a good result from our Debt Relief Platform.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>What is Debt Settlement?</span>
+            <span class="toggle-icon">⌄</span>
+          </div>
+          <div class="faq-answer">
+            <p>
+              debt settlement involves negotiating with creditors to reduce debt
+              amounts or establish structured repayment plans, helping you
+              regain control of your finances.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>how does settlement affect my credit score? </span>
+            <span class="toggle-icon">⌄</span>
+          </div>
+          <div class="faq-answer">
+            <p>
+              settlement may harm your credit score since it involves paying
+              less than the full debt, leading to a 'partial payment' notation
+              on your credit report.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>what is NPA (Non Performing Asset)? </span>
+            <span class="toggle-icon">⌄</span>
+          </div>
+          <div class="faq-answer">
+            <p>
+              NPA (Non Performing Asset) denotes loans or credits that are in
+              default, resulting in no interest or principal payments for a
+              specific duration.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>what is FOIR (Fixed Obligation to Income Ratio)?</span>
+            <span class="toggle-icon">⌄</span>
+          </div>
+          <div class="faq-answer">
+            <p>
+              FOIR (Fixed Obligation to Income Ratio) is a lender's tool to
+              evaluate your ability to repay loans, comparing your fixed
+              obligations, like loan payments, to your income.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <span
+              >what is the difference between Collection and Counseling?
+            </span>
+            <span class="toggle-icon">⌄</span>
+          </div>
+          <div class="faq-answer">
+            <p>
+              collection refers to creditors' efforts to collect overdue
+              payments, while counseling provides financial guidance for
+              effective debt management.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>how to build Debt Settlement? </span>
+            <span class="toggle-icon">⌄</span>
+          </div>
+          <div class="faq-answer">
+            <p>
+              building debt settlement involves partnering with a professional
+              firm, creating a budget, and saving to negotiate settlements with
+              creditors.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>how to stop Creditors’ calls?</span>
+            <span class="toggle-icon">⌄</span>
+          </div>
+          <div class="faq-answer">
+            <p>
+              to stop creditor calls, you can request written communication,
+              express your intent to work on a repayment plan, or explore legal
+              options like bankruptcy protection.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>how much does Debt Settlement cost? </span>
+            <span class="toggle-icon">⌄</span>
+          </div>
+          <div class="faq-answer">
+            <p>
+              debt settlement costs encompass fees to settlement companies and
+              the negotiated settlement amounts with creditors, varying based on
+              your circumstances.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>what is a good Credit Score? </span>
+            <span class="toggle-icon">⌄</span>
+          </div>
+          <div class="faq-answer">
+            <p>
+              a good credit score is typically considered as 700 or higher on
+              the FICO scale, though the definition may vary depending on the
+              lender and credit type sought.
+            </p>
+          </div>
+        </div>
+
+        <!-- Add more FAQ items as needed -->
+
+        <div class="more-faqs">
+          <a href="#">more FAQs ></a>
+        </div>
+      </div>
+    </div>
+
+   <section class="ocs-section">
+    <h2 class="text-center">our customers say</h2>
+    <div class="container mt-5 testimonial-section">
+      <div id="testimonialCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <!-- First Slide -->
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-md-4 col-12">
+                <div class="testimonial-card">
+                  <h3>raghunath giri</h3>
+                  <p class="location">mumbai</p>
+                  <p class="quote">“thanks for your kind support. i really appreciate mrs. porismita. she was very positive and helping nature.”</p>
+                </div>
+              </div>
+              <div class="col-md-4 col-12">
+                <div class="testimonial-card">
+                  <h3>suraj gupta</h3>
+                  <p class="location">mumbai</p>
+                  <p class="quote">“best way to be debt free. moneytor helped me to get rid of loan in the easiest way possible.”</p>
+                </div>
+              </div>
+              <div class="col-md-4 col-12">
+                <div class="testimonial-card">
+                  <h3>hardikbhai beladiya</h3>
+                  <p class="location">mumbai</p>
+                  <p class="quote">“thank you for your response. and also thank you for mr dibakar paul for very help fully support.”</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Second Slide -->
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-4 col-12">
+                <div class="testimonial-card">
+                  <h3>raghunath giri</h3>
+                  <p class="location">mumbai</p>
+                  <p class="quote">“thanks for your kind support. i really appreciate mrs. porismita. she was very positive and helping nature.”</p>
+                </div>
+              </div>
+              <div class="col-md-4 col-12">
+                <div class="testimonial-card">
+                  <h3>suraj gupta</h3>
+                  <p class="location">mumbai</p>
+                  <p class="quote">“best way to be debt free. moneytor helped me to get rid of loan in the easiest way possible.”</p>
+                </div>
+              </div>
+              <div class="col-md-4 col-12">
+                <div class="testimonial-card">
+                  <h3>hardikbhai beladiya</h3>
+                  <p class="location">mumbai</p>
+                  <p class="quote">“thank you for your response. and also thank you for mr dibakar paul for very help fully support.”</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Controls -->
+        <a class="carousel-control-prev" href="#testimonialCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#testimonialCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+   </section>
+    
+    
+
+   <section class="blog-section">
+    <h2 class="text-center">blogs</h2>
+    <div class="container mt-5">
+      <div id="blogCarousel" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+              <!-- First Slide -->
+              <div class="carousel-item active">
+                  <div class="row">
+                      <div class="col-md-4 col-12">
+                          <div class="blog-card">
+                              <img src="assets/cardImg1.png" class="cardImg" alt="Blog 1">
+                              <div class="blog-content">
+                                  <h3>the importance of emergency funds: how much to save...</h3>
+                                  <p>by Moneytor | 14 Sep 2023</p>
+                                  <a class="font-weight-normal" href="#">read more...</a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-md-4 col-12">
+                          <div class="blog-card">
+                              <img src="assets/cardImg2.png" class="cardImg" alt="Blog 2">
+                              <div class="blog-content">
+                                  <h3>mastering budgets: your guide to effective budgeting and...</h3>
+                                  <p>by Moneytor | 31 Aug 2023</p>
+                                  <a class="font-weight-normal" href="#">read more...</a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-md-4 col-12">
+                          <div class="blog-card">
+                              <img src="assets/cardImg3.png" class="cardImg" alt="Blog 1">
+                              <div class="blog-content">
+                                  <h3>the importance of emergency funds: how much to save...</h3>
+                                  <p>by Moneytor | 14 Sep 2023</p>
+                                  <a class="font-weight-normal" href="#">read more...</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <!-- Second Slide ------->
+              <div class="carousel-item">
+                  <div class="row">
+                      <div class="col-md-4 col-12">
+                          <div class="blog-card">
+                              <img src="assets/cardImg4.png" class="cardImg" alt="Blog 2">
+                              <div class="blog-content">
+                                  <h3>mastering budgets: your guide to effective budgeting and...</h3>
+                                  <p>by Moneytor | 31 Aug 2023</p>
+                                  <a class="font-weight-normal" href="#">read more...</a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-md-4 col-12">
+                          <div class="blog-card">
+                              <img src="assets/cardImg5.png" class="cardImg" alt="Blog 1">
+                              <div class="blog-content">
+                                  <h3>the importance of emergency funds: how much to save...</h3>
+                                  <p>by Moneytor | 14 Sep 2023</p>
+                                  <a class="font-weight-normal" href="#">read more...</a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-md-4 col-12">
+                          <div class="blog-card">
+                              <img src="assets/cardImg6.png" class="cardImg" alt="Blog 2">
+                              <div class="blog-content">
+                                  <h3>mastering budgets: your guide to effective budgeting and...</h3>
+                                  <p>by Moneytor | 31 Aug 2023</p>
+                                  <a class="font-weight-normal" href="#">read more...</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <a class="carousel-control-prev" href="#blogCarousel" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#blogCarousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+          </a>
+      </div>
+  </div>
+   </section>
+
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="footer-logo">
+          <img src="assets/care-logo.svg" alt="Logo" />
+        </div>
+        <div class="footer-heading">
+          <h2>Moneytor Care helps you to get debt free</h2>
+        </div>
+      </div>
+
+      <div class="footer-middle">
+        <div class="footer-column">
+          <h3>Quick Links</h3>
+          <ul>
+            <li>about Us</li>
+            <li>solutions</li>
+            <li>media</li>
+            <li>blog</li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Our Branches</h3>
+          <ul>
+            <li>Mumbai</li>
+            <li>Pune</li>
+            <li>Assam</li>
+            <li>Visakhapatnam</li>
+            <li>Pondicherry</li>
+            <li>Mangalore</li>
+            <li>Noida</li>
+            <li>Gurgaon</li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Company</h3>
+          <ul>
+            <li>help@moneytor.care</li>
+            <li>+91 9987676717</li>
+            <li>+91 8655831539</li>
+            <li>Bootstart Cowork, Colaba, Mumbai</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-social">
+        <a href="#"><img src="assets/twitter.svg" alt="Twitter" /></a>
+        <a href="#"><img src="assets/facebook.svg" alt="Facebook" /></a>
+        <a href="#"><img src="assets/linkedIn.svg" alt="LinkedIn" /></a>
+        <a href="#"><img src="assets/Instagram.svg" alt="Instagram" /></a>
+        <a href="#"><img src="assets/telegram.svg" alt="Telegram" /></a>
+      </div>
+
+      <div class="footer-bottom">
+        <p style="color: #969696">Made with love by</p>
+        <p style="margin-top: 15px; color: #d4d4d4">
+          Aggra Technologies Pvt. Ltd.
+        </p>
+        <p style="margin-top: 15px; color: #969696; font-size: 10px">
+          All Rights Reserved
+        </p>
+      </div>
+    </footer>
+    <div class="footer-last">
+      <p style="color: #969696">
+        © Copyright 2024 Moneytor Inc. All rights reserved.
+      </p>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
